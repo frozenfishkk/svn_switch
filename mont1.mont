@@ -1,0 +1,108 @@
+{
+  "uuid": "GsGvbc7Pbi7aKUnAAJm2Qo",
+  "properties": {
+    "name": "root",
+    "globalSettings": {
+      "playSettings": {
+        "playSpeed": 1.0,
+        "loopPlay": false,
+        "endBehavior": 1,
+        "dragTrigger": false,
+        "cineOffset": false,
+        "playFrameLimit": false,
+        "pauseBGM": false
+      },
+      "frameDrive": false,
+      "montFPS": 30.0,
+      "recruitByFrame": false,
+      "trackPerFrame": 10,
+      "sceneID": 99030,
+      "FitHor": true,
+      "Aspect": 1.7777777777777777,
+      "Variables": [],
+      "EnableCameraTick": false,
+      "LastFrame": false,
+      "MainPlayerNavigation": false,
+      "MPNIMoveType": 1,
+      "MPNITime": 0,
+      "MPNICallbackTime": 0.2,
+      "MainPlayerNavigationOut": false,
+      "MPNOAddButton": null,
+      "MPNODelButton": null,
+      "MPNOMoveType": 1,
+      "MPNOBreakTime": 0.5,
+      "MainPlayerNavigationOutTarget": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "LongTakeBlackEdgeIn": false,
+      "LongTakeBlackEdgeOut": false,
+      "PrincipleRole": "CineCamera"
+    },
+    "branchInfo": {
+      "_master": []
+    },
+    "currentBranch": "_master",
+    "previewCamera": ""
+  },
+  "children": [
+    {
+      "uuid": "vmyhDuYQFCv4zpW4WQC6H9",
+      "properties": {
+        "type": "MontageTrackRoot",
+        "name": "MontageTrackRoot",
+        "disabled": false,
+        "visible": true,
+        "tag": "All",
+        "localInherit": false,
+        "globalInherit": false,
+        "WarmUp": true,
+        "startTime": 0.0,
+        "endTime": 30.0,
+        "_metacls": "TMontageRoot"
+      },
+      "children": [],
+      "frames": []
+    },
+    {
+      "uuid": "DcTTrhxr8hMzQiJJZTjBRV",
+      "properties": {
+        "type": "SceneTrackRoot",
+        "name": "SceneTrackRoot",
+        "disabled": false,
+        "visible": true,
+        "tag": "All",
+        "localInherit": false,
+        "globalInherit": false,
+        "WarmUp": true,
+        "startTime": 0.0,
+        "endTime": 30.0,
+        "_metacls": "TSceneRoot"
+      },
+      "children": [
+        {
+          "uuid": "bCooRX9D4Qgt7qvXc6K7Ri",
+          "properties": {
+            "type": "UIQte",
+            "name": "QTE",
+            "disabled": false,
+            "visible": true,
+            "tag": "All",
+            "localInherit": false,
+            "globalInherit": false,
+            "WarmUp": true,
+            "_metacls": "JUIQte",
+            "default": null
+          },
+          "children": [],
+          "frames": []
+        }
+      ],
+      "frames": []
+    }
+  ],
+  "frames": [],
+  "engine": "H74_Messiah",
+  "FPS": 30
+}
