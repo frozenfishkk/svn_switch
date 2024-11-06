@@ -1,0 +1,1476 @@
+{
+    "Data": {
+        "DialogTemplateType": 0,
+        "DialogType": 0,
+        "Type": "CustomDialoguePiece",
+        "anchorPlayer": "gKzgwVCupCEYK7jnzgWRvn",
+        "anchorPosition": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba",
+        "autoPositions": [],
+        "camera": "22",
+        "disableWithoutNpc": false,
+        "enableAuto": true,
+        "enableLog": true,
+        "enablePCG": false,
+        "enablePlayAudioOnSkip": false,
+        "enableRange": 20,
+        "enableResetCamera": true,
+        "enableResetCameraEnteringNormalAVG": true,
+        "enableShowRS": false,
+        "enableSkipAll": true,
+        "enableSpeedup": true,
+        "generatePosButton": null,
+        "id": "101501_khd030",
+        "multiPosCamTypes": [],
+        "node2MontMap": {
+            "dirty": {},
+            "origin": {},
+            "positions": {},
+            "stageRange": ""
+        },
+        "playAudioIdOnSkip": 0,
+        "posPrefabType": "",
+        "posType": "2_1V1_Close",
+        "positionCount": 0,
+        "positions": [
+            "101514:\u72c2\u6b22\u5c9b\u8def\u4eba",
+            "MainPlayer"
+        ],
+        "sailorLookAtNpc": false,
+        "setPosData": null,
+        "singlePosCamTypes": [],
+        "subtitlePriority": 1,
+        "tip": "[\u70b9\u51fb\u6587\u4ef6][\u9762\u677f\u7a7a\u767d\u5904] \u53ef\u5207\u6362\u5230\u8be5\u5c5e\u6027\u7a97\u53e3\u754c\u9762",
+        "usePosPrefab": true,
+        "useTypewriter": false
+    },
+    "Language": "CHS",
+    "LastGenerateID": 0,
+    "Variables": {},
+    "groupData": {},
+    "lineData": [
+        {
+            "endNode": "y7KJJfRRDfaKDyh2ZWFNdH",
+            "endPort": "__in__",
+            "startNode": "MvUAg6VUdcJ8yqsyjqxkkL",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "MvUAg6VUdcJ8yqsyjqxkkL",
+            "endPort": "__in__",
+            "startNode": "SFtN2wdrPbN7dzKx8hJj7m",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "xi7YMbj8r8x5UYdonkxFZL",
+            "endPort": "__in__",
+            "startNode": "Tiz8b4oiaHVj4JUUXSj78J",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "mFterRrDQu8eGDkacWNgzX",
+            "endPort": "__in__",
+            "startNode": "fsUPhuuD7WVWojGTrjGMsh",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "yfHYsAYVthR5QrPZ9n89pX",
+            "endPort": "__in__",
+            "startNode": "g4RiGETJoReJH88LbsTgMe",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "yKMahJfBUgcujmX6nNAeae",
+            "endPort": "__in__",
+            "startNode": "mFterRrDQu8eGDkacWNgzX",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "g4RiGETJoReJH88LbsTgMe",
+            "endPort": "__in__",
+            "startNode": "r9ps6dQh8dVZbuZGsC3EPJ",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "SFtN2wdrPbN7dzKx8hJj7m",
+            "endPort": "__in__",
+            "startNode": "xi7YMbj8r8x5UYdonkxFZL",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "r9ps6dQh8dVZbuZGsC3EPJ",
+            "endPort": "__in__",
+            "startNode": "y7KJJfRRDfaKDyh2ZWFNdH",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "Tiz8b4oiaHVj4JUUXSj78J",
+            "endPort": "__in__",
+            "startNode": "yKMahJfBUgcujmX6nNAeae",
+            "startPort": "__out__"
+        },
+        {
+            "endNode": "ejziyxMp2DwUaCAvzce52W",
+            "endPort": "__in__",
+            "startNode": "yfHYsAYVthR5QrPZ9n89pX",
+            "startPort": "__out__"
+        }
+    ],
+    "nodeData": {
+        "MvUAg6VUdcJ8yqsyjqxkkL": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_3",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "MTkh5tZ5W2ukhRswA2tez7",
+                    "Y5psmVvYoQ97nLH23i5jB7"
+                ],
+                "cameraType": "2_1V1_sidebyside_LeftOrRight_Actor_OverTheShoulder_Flat_Medium",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u2026\u2026\u4f60\u4e0d\u77e5\u9053\u6d77\u76d7\u4e50\u961f\u8981\u6765\u5c9b\u4e0a\u6f14\u51fa\uff1f",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 3,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_3",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_3",
+                "dialogueType": 2,
+                "duration": 8.4,
+                "duration2": 8.4,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "MvUAg6VUdcJ8yqsyjqxkkL",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "\u6d77\u519b",
+                "nameTID": "TID_NPC_NAME_101428",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "MTkh5tZ5W2ukhRswA2tez7",
+                "roleAnimation": "event_dance",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101514",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018346,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_3",
+                "volume": 1.0
+            },
+            "NodeID": "MvUAg6VUdcJ8yqsyjqxkkL",
+            "Pos": [
+                -225.0,
+                476.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "SFtN2wdrPbN7dzKx8hJj7m": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_9",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [],
+                "cameraType": "",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u545c\u547c\uff01",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 9,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_9",
+                "dialogueTIDEnum": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_9",
+                "dialogueType": 2,
+                "duration": 1.633,
+                "duration2": 1.64,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "SFtN2wdrPbN7dzKx8hJj7m",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "happiness",
+                "name": "101501:\u72c2\u6b22\u5c9b\u6d77\u76d715",
+                "nameTID": "",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "MTkh5tZ5W2ukhRswA2tez7",
+                "roleAnimation": "",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101514",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018313,
+                "roleType": 4,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_9",
+                "volume": 1.0
+            },
+            "NodeID": "SFtN2wdrPbN7dzKx8hJj7m",
+            "Pos": [
+                -225.0,
+                386.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "Tiz8b4oiaHVj4JUUXSj78J": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_2",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [],
+                "cameraType": "\u6a21\u677f/\u5355\u4eba",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u545c\u547c\uff01",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 2,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_2",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_2",
+                "dialogueType": 2,
+                "duration": 1.567,
+                "duration2": 1.56,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "yKMahJfBUgcujmX6nNAeae",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "happiness",
+                "name": "101501:\u72c2\u6b22\u5c9b\u6d77\u76d715",
+                "nameTID": "",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "MTkh5tZ5W2ukhRswA2tez7",
+                "roleAnimation": "",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101514",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018313,
+                "roleType": 4,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_2",
+                "volume": 1.0
+            },
+            "NodeID": "Tiz8b4oiaHVj4JUUXSj78J",
+            "Pos": [
+                -225.0,
+                206.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "ejziyxMp2DwUaCAvzce52W": {
+            "Data": {
+                "BranchSignal": 0,
+                "Type": "DialogEndNode",
+                "paramName": "\u5206\u652f"
+            },
+            "NodeID": "ejziyxMp2DwUaCAvzce52W",
+            "Pos": [
+                -225.0,
+                926.542978
+            ],
+            "Type": "DialogEndNode"
+        },
+        "fsUPhuuD7WVWojGTrjGMsh": {
+            "Data": {
+                "Type": "DialogStartNode"
+            },
+            "NodeID": "fsUPhuuD7WVWojGTrjGMsh",
+            "Pos": [
+                -225.0,
+                -4.457022
+            ],
+            "Type": "DialogStartNode"
+        },
+        "g4RiGETJoReJH88LbsTgMe": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_6",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "MTkh5tZ5W2ukhRswA2tez7",
+                    "Y5psmVvYoQ97nLH23i5jB7"
+                ],
+                "cameraType": "2_1V1_Standard_LeftOrRight_OverTheShoulder_Medium",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u8fd9\u4e9b\u90fd\u4e0d\u91cd\u8981\uff0c\u52a0\u5165\u6211\u4eec\u7684\u2014\u2014\u72c2\u6b22\u5427\uff01",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 6,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_6",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_6",
+                "dialogueType": 2,
+                "duration": 5.067,
+                "duration2": 5.08,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "g4RiGETJoReJH88LbsTgMe",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "\u5229\u4e9a\u59c6",
+                "nameTID": "TID_NPC_NAME_101408",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "MTkh5tZ5W2ukhRswA2tez7",
+                "roleAnimation": "",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101514",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018313,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_6",
+                "volume": 1.0
+            },
+            "NodeID": "g4RiGETJoReJH88LbsTgMe",
+            "Pos": [
+                -225.0,
+                746.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "mFterRrDQu8eGDkacWNgzX": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_0",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "DwYGNxsnSxiEbmcb4Qd5o2",
+                    "CNnVYgosnL9HYyrcFMFgkn"
+                ],
+                "cameraType": "2_1V1_Standard_LeftOrRight_OverTheShoulder_Medium",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u4e0d\u5e26\u67b7\u9501\u548c\u9563\u94d0\u7684\u6d77\u76d7\uff0c\u4e0d\u5e26\u9119\u5937\u548c\u8822\u76f8\u7684\u6d77\u519b\uff1f\u73b0\u5728\u662f\u7ae5\u8bdd\u4e66\u7684\u54ea\u4e00\u9875\uff1f",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 0,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_0",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_0",
+                "dialogueType": 2,
+                "duration": 8.6,
+                "duration2": 8.6,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "mFterRrDQu8eGDkacWNgzX",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "RS",
+                "nameTID": "TID_Ogygia_NPC_70",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "DwYGNxsnSxiEbmcb4Qd5o2",
+                "roleAnimation": "npc_stand_lookaround_showhands_confused_aitest",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "0:25088",
+                "roleLookAt": "",
+                "rolePosition": [
+                    -0.55,
+                    0.0,
+                    1.6
+                ],
+                "roleRotation": [
+                    0.0,
+                    0.0,
+                    180.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 1001942,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_0",
+                "volume": 1.0
+            },
+            "NodeID": "mFterRrDQu8eGDkacWNgzX",
+            "Pos": [
+                -225.0,
+                25.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "r9ps6dQh8dVZbuZGsC3EPJ": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_5",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "MTkh5tZ5W2ukhRswA2tez7",
+                    "Y5psmVvYoQ97nLH23i5jB7"
+                ],
+                "cameraType": "2_1V1_Standard_LeftOrRight_OverTheShoulder_Medium",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u563f\uff01\u6211\u4eec\u8239\u7684\u8c1a\u8bed\u662f\u201c\u603b\u6709\u6c34\u624b\u5c3f\u4e0d\u5230\u7684\u6d77\u9762\u2026\u2026\u201d",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 5,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_5",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_5",
+                "dialogueType": 2,
+                "duration": 3.933,
+                "duration2": 3.92,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "r9ps6dQh8dVZbuZGsC3EPJ",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "\u5229\u4e9a\u59c6",
+                "nameTID": "TID_NPC_NAME_101408",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "MTkh5tZ5W2ukhRswA2tez7",
+                "roleAnimation": "event_dance",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101514",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018313,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_5",
+                "volume": 1.0
+            },
+            "NodeID": "r9ps6dQh8dVZbuZGsC3EPJ",
+            "Pos": [
+                -225.0,
+                656.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "xi7YMbj8r8x5UYdonkxFZL": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_8",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "DwYGNxsnSxiEbmcb4Qd5o2",
+                    "CNnVYgosnL9HYyrcFMFgkn"
+                ],
+                "cameraType": "2_1V1_Standard_LeftOrRight_OverTheShoulder_Full",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u5443\u2026\u2026\u5e86\u795d\u4ec0\u4e48\u7684\u72c2\u6b22\uff1f",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 8,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_8",
+                "dialogueTIDEnum": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_8",
+                "dialogueType": 2,
+                "duration": 3.533,
+                "duration2": 3.52,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "xi7YMbj8r8x5UYdonkxFZL",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "RS",
+                "nameTID": "TID_Ogygia_NPC_70",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "DwYGNxsnSxiEbmcb4Qd5o2",
+                "roleAnimation": "event_failed",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "0:25088",
+                "roleLookAt": "",
+                "rolePosition": [
+                    -0.55,
+                    0.0,
+                    1.6
+                ],
+                "roleRotation": [
+                    0.0,
+                    0.0,
+                    180.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 1001942,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_MZ8tf9x7fv7oMBqH6bmF83_dialog_content_main_8",
+                "volume": 1.0
+            },
+            "NodeID": "xi7YMbj8r8x5UYdonkxFZL",
+            "Pos": [
+                -225.0,
+                296.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "y7KJJfRRDfaKDyh2ZWFNdH": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_mz92Nf3TSDHZSAUysVBAGD_dialog_content_101501_10",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0.033,
+                "branch": "undefined",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [],
+                "cameraType": "",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u5929\u5450\uff0c\u90a3\u4e9b\u8001\u6c34\u624b\u7684\u8bdd\u679c\u7136\u6ca1\u9519\u3002\u201c\u603b\u6709\u592a\u9633\u7167\u4e0d\u5230\u7684\u89d2\u843d\u201d\u3002",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 10,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_mz92Nf3TSDHZSAUysVBAGD_dialog_content_101501_10",
+                "dialogueTIDEnum": "TIDE_mz92Nf3TSDHZSAUysVBAGD_dialog_content_101501_10",
+                "dialogueType": 2,
+                "duration": 4.0,
+                "duration2": 0.0,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "y7KJJfRRDfaKDyh2ZWFNdH",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "\u6d77\u519b",
+                "nameTID": "TID_NPC_NAME_101428",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "animationDelay": 0.0,
+                        "idleAnim": "breath_idle",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "animationDelay": 0.0,
+                        "idleAnim": "breath_idle",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "",
+                "roleAnimation": "",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0,
+                    0,
+                    0
+                ],
+                "roleRotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018346,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.1,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_mz92Nf3TSDHZSAUysVBAGD_dialog_content_101501_10",
+                "volume": 1.0
+            },
+            "NodeID": "y7KJJfRRDfaKDyh2ZWFNdH",
+            "Pos": [
+                -225.0,
+                566.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "yKMahJfBUgcujmX6nNAeae": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_1",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "MTkh5tZ5W2ukhRswA2tez7",
+                    "Y5psmVvYoQ97nLH23i5jB7"
+                ],
+                "cameraType": "2_1V1_Standard_LeftOrRight_OverTheShoulder_Medium",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u6211\u4eec\u6240\u6709\u4eba\u2026\u2026\u90fd\u5728\u7b49\u5f85\u90a3\u573a\u72c2\u6b22\u3002",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 1,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_1",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_1",
+                "dialogueType": 2,
+                "duration": 2.767,
+                "duration2": 2.76,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "yKMahJfBUgcujmX6nNAeae",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "\u5229\u4e9a\u59c6",
+                "nameTID": "TID_NPC_NAME_101408",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "CNnVYgosnL9HYyrcFMFgkn",
+                "roleAnimation": "sailor_common_stand_idle",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "7:101401",
+                "roleLookAt": "",
+                "rolePosition": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleRotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 10018313,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_1",
+                "volume": 1.0
+            },
+            "NodeID": "yKMahJfBUgcujmX6nNAeae",
+            "Pos": [
+                -225.0,
+                116.542978
+            ],
+            "Type": "DialogueNode"
+        },
+        "yfHYsAYVthR5QrPZ9n89pX": {
+            "Data": {
+                "DialogTemplateType": 0,
+                "IsForAllBody": false,
+                "Type": "DialogueNode",
+                "animation": "",
+                "animationLoop": "npc_idle",
+                "audio": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_7",
+                "audioGenerateButton": null,
+                "audioID": "",
+                "audioPlayer": "",
+                "auxBus": null,
+                "backInterval": 0,
+                "branch": "_master",
+                "break_dialog_delay": 0.0,
+                "break_dialog_id": 0,
+                "break_dialog_type": 0,
+                "bubble": null,
+                "bubbleDelay": 0.0,
+                "bubbleHardPoint": "",
+                "bubbleOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "bubbleTime": 1.0,
+                "cameraActors": [
+                    "DwYGNxsnSxiEbmcb4Qd5o2",
+                    "Y5psmVvYoQ97nLH23i5jB7"
+                ],
+                "cameraType": "2_1V1_sidebyside_LeftOrRight_Actor_OverTheShoulder_Flat_Full",
+                "charType": 1,
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "connectAudio": false,
+                "content": "\u545c\u547c\uff01",
+                "dialogueCamera": null,
+                "dialogueCameraTarget": 0,
+                "dialogueIndex": 7,
+                "dialogueReactions": [],
+                "dialogueTID": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_7",
+                "dialogueTIDEnum": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_7",
+                "dialogueType": 2,
+                "duration": 1.233,
+                "duration2": 1.24,
+                "effect": null,
+                "effectDelay": 0.0,
+                "effectHardPoint": "Scene Root",
+                "effectOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "emotion": "",
+                "enableSkip": true,
+                "frontInterval": 0.1,
+                "generateVaFile": null,
+                "head": "",
+                "hideRealName": false,
+                "id": "yfHYsAYVthR5QrPZ9n89pX",
+                "isAnimationContinue": true,
+                "isAnimationLoop": true,
+                "isAnimationPlayLoop": false,
+                "language": "CHS",
+                "mood": "",
+                "name": "RS",
+                "nameTID": "TID_Ogygia_NPC_70",
+                "originArt": 0,
+                "pos": [
+                    0.5,
+                    0.2
+                ],
+                "reactions": [
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "101514:\u72c2\u6b22\u5c9b\u8def\u4eba"
+                    },
+                    {
+                        "animation": "",
+                        "lookAt": "",
+                        "manual": false,
+                        "role": "MainPlayer"
+                    }
+                ],
+                "role": "DwYGNxsnSxiEbmcb4Qd5o2",
+                "roleAnimation": "",
+                "roleAnimationDelay": 0,
+                "roleAnimationDelayTime": 0.0,
+                "roleAnimationLoop": "npc_idle",
+                "roleCharKey": "0:25088",
+                "roleLookAt": "",
+                "rolePosition": [
+                    -0.55,
+                    0.0,
+                    1.6
+                ],
+                "roleRotation": [
+                    0.0,
+                    0.0,
+                    180.0
+                ],
+                "roleScale": [
+                    1,
+                    1,
+                    1
+                ],
+                "roleTable": 1001942,
+                "roleType": 0,
+                "selectCamera": null,
+                "selectTheater": null,
+                "setCameraData": null,
+                "skipProtectTime": 0.3,
+                "theaterName": "",
+                "theaterStoryline": "",
+                "toRole": "",
+                "toRoleAnimation": "",
+                "useOtherTID": false,
+                "vaFile": "TIDE_e7kqitE7FBEYrXXE7WaMdQ_dialog_content_UnTitled_7",
+                "volume": 1.0
+            },
+            "NodeID": "yfHYsAYVthR5QrPZ9n89pX",
+            "Pos": [
+                -225.0,
+                836.542978
+            ],
+            "Type": "DialogueNode"
+        }
+    },
+    "snapGroupData": [
+        [
+            "fsUPhuuD7WVWojGTrjGMsh",
+            "mFterRrDQu8eGDkacWNgzX",
+            "yKMahJfBUgcujmX6nNAeae",
+            "Tiz8b4oiaHVj4JUUXSj78J",
+            "xi7YMbj8r8x5UYdonkxFZL",
+            "SFtN2wdrPbN7dzKx8hJj7m",
+            "MvUAg6VUdcJ8yqsyjqxkkL",
+            "y7KJJfRRDfaKDyh2ZWFNdH",
+            "r9ps6dQh8dVZbuZGsC3EPJ",
+            "g4RiGETJoReJH88LbsTgMe",
+            "yfHYsAYVthR5QrPZ9n89pX",
+            "ejziyxMp2DwUaCAvzce52W"
+        ]
+    ],
+    "version": 1.0
+}
